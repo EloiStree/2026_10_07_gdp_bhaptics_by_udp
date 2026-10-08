@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://dp67r0pt8kmpu"]
+
+[ext_resource type="Script" uid="uid://bdfrhx0jh1xkl" path="res://addons/2026_10_07_gdp_bhaptics_by_udp/scene/guid/demo_udp_to_bhaptics/vibed_haptics_for_preliminary_testing.gd" id="1_yvyd7"]
+
+[node name="Node3D" type="Control" unique_id=1508718572]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 19
+size_flags_vertical = 19
+metadata/_edit_use_anchors_ = true
+
+[node name="Node2" type="Node" parent="." unique_id=414762251]
+script = ExtResource("1_yvyd7")
+use_bundles = true
+debug_print = true
+test_interval_s = 1.058
